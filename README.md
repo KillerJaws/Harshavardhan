@@ -1,2 +1,0 @@
-# Harshavardhan
-Harshavardhan portfolio

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Harsha's Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+        {% comment %} <link rel="stylesheet" href="css/style.css"> {% endcomment %}
+
+    </head>
+    <body>
+        <header>
+            <!-- <div class="logo">
+                <img src="img/killlerjaws.PNG" alt="logo">
+            </div> -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Harsha</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="img/bruno bw.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <!-- <div class="service">
+                    <h3>Illustrating</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> / service -->
+                
+                <div class="service">
+                    <h3>Designing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer</p>
+           
+           <div class="about-me__body">
+               <p>I love designing things. I had this in me since I was a kid. I used to draw and paint on canvas but at my age 15 i've seen this digital illustrating and I learnt <ai class="des">Adobe</ai> <ia class="desi">-illustrator</ia>. With that knowledge I used to design posters and logos. </p>
+               <p>Being an engineer, I should know coding. So, I started with basic coding and I got familiar with many things and thats where I realised we can do designing with code and I started working with <thick class="thicker">HTML</thick>, <css class="ticker">css</css> and later on <js class="tiker">JavaScript</js> and additional add on's like Figma and still going to learn more..</p>
+           </div>
+           
+           <img src="img/gawx.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/gawx2.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/gawx3.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/gawx4.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/gawx5.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/gawx6.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+              
+                <!-- Portfolio item 08 -->
+             
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/gawx9.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+              
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:harsha11710760@gmail.com" class="footer__link">Write to me on</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/harsha11710760">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/harshavardhanpolanki/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/harsh_primate/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://discord.com/channels/@me">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="portfolio.js"></script>
+        
+    </body>
+</html>
